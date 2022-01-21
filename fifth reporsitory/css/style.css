@@ -1,0 +1,219 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+  padding: 20px 8rem;
+  background-color: #212529;
+  overflow: hidden;
+  width: 100%;
+  z-index: 78;
+}
+
+.header .left {
+  float: left;
+  width: 15%;
+  margin-top: 6px;
+}
+
+.header .right {
+  text-align: right;
+  float: right;
+  width: 85%;
+  margin-top: 6px;
+}
+
+.header .right a {
+  color: azure;
+  text-decoration: none;
+  margin-left: 45px;
+}
+
+#second {
+  text-align: center;
+  overflow: hidden;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 14rem 0;
+}
+
+#second h2 {
+  font-size: 43px;
+  font-style: italic;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+#second h1 {
+  font-size: 72px;
+  color: #FFFFFF;
+  margin-bottom: 41px;
+}
+
+#second a {
+  color: #FFFFFF;
+  padding: 1.25rem 2.5rem;
+  background-color: #ffc800;
+  font-weight: 700;
+  opacity: .9;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+#second a:hover {
+  opacity: 1;
+}
+
+.third {
+  padding: 20px 3rem;
+}
+
+.third .thirdtext {
+  text-align: center;
+}
+
+.third .thirdtext h2 {
+  font-size: 40px;
+}
+
+.third .thirdtext h3 {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  color: #6c757d;
+  margin-top: 12px;
+}
+
+.third .allicon {
+  margin-top: 45px;
+  float: left;
+  width: calc(100%/3);
+  text-align: center;
+  padding: 0 16px;
+}
+
+.third .allicon i {
+  background-color: #ffc800;
+  border-radius: 100%;
+  color: #FFFFFF;
+  padding: 34px;
+  font-size: 63px;
+}
+
+.third .allicon h4 {
+  font-size: 23px;
+  margin-top: 12px;
+}
+
+.third .allicon p {
+  font-size: 19px;
+  margin-top: 12px;
+}
+
+#fourth {
+  padding: 20px 8rem;
+}
+
+#fourth .fourthtext {
+  text-align: center;
+}
+
+#fourth .fourthtext h2 {
+  font-size: 50px;
+  color: #212529;
+}
+
+#fourth .fourthtext p {
+  font-size: 23px;
+  color: #6c757d;
+  font-style: italic;
+}
+
+#fourth .box {
+  width: 32%;
+  float: left;
+  padding: 0 12px;
+  margin-top: 23px;
+}
+
+#fourth .top {
+  position: relative;
+}
+
+#fourth .top:hover .overlay {
+  opacity: .8;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#fourth .top img {
+  width: 100%;
+}
+
+#fourth .top .overlay {
+  position: absolute;
+  background-color: #ffc800;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+#fourth .top .overlay p {
+  font-size: 87px;
+  position: absolute;
+  bottom: 31%;
+  right: 42%;
+  color: #FFFFFF;
+}
+
+#fourth .button {
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 23px;
+}
+
+.team {
+  padding: 20px 8rem;
+}
+
+.team .teamtext {
+  text-align: center;
+}
+
+.team .teamtext h2 {
+  font-size: 40px;
+  color: #212529;
+}
+
+.team .teamtext p {
+  font-size: 16px;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.team .all1 .box1 {
+  width: calc(100%/3);
+}
+
+.team .all1 .box1 .button1 {
+  width: 30%;
+}
+
+.team .all1 .photo {
+  float: left;
+}
+
+.team .all1 .photo img {
+  border-radius: 100%;
+  height: 14rem;
+  width: 14rem;
+  border: 8px solid #aaa6a6;
+}
+/*# sourceMappingURL=style.css.map */
